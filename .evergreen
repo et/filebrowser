@@ -1,0 +1,5 @@
+require 'capybara-webkit'
+
+Evergreen.configure do |config|
+  config.driver = :webkit
+end
